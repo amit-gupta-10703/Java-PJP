@@ -5,7 +5,7 @@ public class assignment15 {
 		// TODO Auto-generated method stub
 		int num=Integer.parseInt(args[0]);
 		int temp=0;
-		while(num%10!=0) {
+		while(num!=0) {
 			temp=temp+(num%10);
 			num=num/10;
 		}
