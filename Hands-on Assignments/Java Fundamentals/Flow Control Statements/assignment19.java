@@ -1,0 +1,17 @@
+
+public class assignment19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int temp=0;
+		int num=1;
+		while(temp<5) {
+			if((num%2==0)&&(num%3==0)&&(num%5==0)) {
+				temp++;
+				System.out.println(num);
+			}
+			num++;
+		}
+	}
+
+}
